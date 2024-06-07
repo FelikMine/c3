@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Document</title>
+  <style>
+    .swiper {
+      width: 600px;
+      height: 300px;
+      background-color: cadetblue;
+      width: 100%;
+    }
+
+    .swiper-wrapper {
+      background-color: aquamarine;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    #header {
+      height: 1000px;
+      background-color: antiquewhite;
+    }
+
+    .header2 {
+      height: 100px;
+      background-color: coral;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <div id="header"></div>
+  <div class="header2"></div>
+  <img class="lazyload" src="David.jpg" data-src="David2.jpg" alt="david" height="100" width="100">
+  <img class="lazyload" data-src="https://www.russiadiscovery.ru/storage/orig/posts/1038/Kavkazskie_gory.jpg"
+    alt="rock">
+
+  <img class="lazyload" data-src="https://www.russiadiscovery.ru/storage/orig/posts/1038/Kavkazskie_gory.jpg"
+    width="765" height="574">
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script> -->
+  <script src="https://github.com/aFarkas/lazysizes/blob/gh-pages/lazysizes.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
